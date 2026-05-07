@@ -1,5 +1,5 @@
-name: ghasha
-description: Compute SHA, SHORT_SHA and BRANCH for the current commit, event-aware across push, tag, pull_request, pull_request_target and merge_group. Exposed as env vars and step outputs.
+name: ghasha - SHA and BRANCH
+description: Compute SHA, SHORT_SHA and BRANCH (event-aware) and expose them as env vars and step outputs.
 author: begoon
 
 branding:
