@@ -7,6 +7,17 @@ and the project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-05-07
+
+### Changed
+
+- Renamed marketplace display name to `ghasha - SHA and BRANCH` to satisfy GitHub Marketplace's uniqueness rule.
+- Shortened the action `description` to stay within the 125-character marketplace limit.
+
+### Added
+
+- This `CHANGELOG.md`.
+
 ## [1.0.0] - 2026-05-07
 
 ### Added
@@ -18,5 +29,6 @@ and the project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 - `length` input to control `SHORT_SHA` truncation (default `8`), validated as a positive integer.
 - `tag` and `release` recipes in the `Justfile` for creating `v`-prefixed annotated tags and bumping the `vX` major pointer.
 
-[Unreleased]: https://github.com/begoon/ghasha/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/begoon/ghasha/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/begoon/ghasha/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/begoon/ghasha/releases/tag/v1.0.0
