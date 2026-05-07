@@ -9,11 +9,6 @@ and the project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.
 
 ## [1.0.1] - 2026-05-07
 
-### Changed
-
-- Renamed marketplace display name to `ghasha - SHA and BRANCH` to satisfy GitHub Marketplace's uniqueness rule.
-- Shortened the action `description` to stay within the 125-character marketplace limit.
-
 ### Added
 
 - This `CHANGELOG.md`.
